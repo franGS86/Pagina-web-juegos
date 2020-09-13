@@ -1,0 +1,121 @@
+
+body{
+
+    margin: 0;
+    padding: 0;
+    background: url(img/conjunto-objetos-relacionados-videojuegos-neon-estilo-lienal_24908-58674.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+
+}
+
+.Formulario{
+
+
+    width: 3500;
+    height: 500px;
+    background-color: rgb(49, 54, 122);
+    color: #fff;
+    /*Centrado*/
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 50px;
+
+
+}
+
+.Formulario h1{
+
+
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 22px;
+
+}
+
+.Formulario input{
+
+width: 80%;
+margin-bottom: 20px;
+
+}
+
+.Formulario input[type = "submit"] {
+
+    text-align: center;
+    border: none;
+    outline: none;
+    width: 220px;
+    height: 30px;
+    background-color: grey;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 50px;
+
+}
+
+.Formulario input[type = "submit"]:hover{
+
+background-color: green;
+
+}
+
+.boton-regresar input[type = "submit"]  {
+
+    background: rgb(49, 54, 122);
+	
+	background-size: cover;
+	background-position: center;
+	display: inline-block;
+	border: none;
+	padding: 5px;
+	width: 40px;
+	border-radius: 900px;
+	height: 40px;
+	transition: all 0.5s;
+	cursor: pointer;
+	top: 5%;
+	left: 5%;
+    position: absolute;
+    color: white;
+    
+}
+
+.boton-regresar input[type = "submit"]:hover
+{
+ width: 75px;
+ height: 75px;
+}
+
+
+.exit input[type = "submit"] {
+
+    background: #92c7eb;
+	background-image: url("http://res.freestockphotos.biz/pictures/15/15107-illustration-of-a-red-close-button-pv.png");
+	background-size: cover;
+	background-position: center;
+	display: inline-block;
+	border: none;
+	padding: 20px;
+	width: 30px;
+	border-radius: 900px;
+	height: 30px;
+	transition: all 0.5s;
+	cursor: pointer;
+	top: 5%;
+	right: 5%;
+    position: absolute;
+    
+}
+
+.exit input[type = "submit"]:hover
+{
+ width: 75px;
+ height: 75px;
+}
